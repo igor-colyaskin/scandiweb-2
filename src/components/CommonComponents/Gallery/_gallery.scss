@@ -1,0 +1,17 @@
+.gallery-img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+
+  &:hover {
+    box-shadow: 0 0 16px lightgrey;
+  }
+}
+
+.gallery-img-cursor-pointer {
+  cursor: pointer;
+}
+
+.gallery-img-cursor-default {
+  cursor: default;
+}

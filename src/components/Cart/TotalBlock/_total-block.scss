@@ -1,0 +1,45 @@
+.total-block-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--c-white);
+  box-sizing: border-box;
+}
+
+.total-block-wrapper-for-big-cart {
+  width: 1097px;
+  margin-top: 36px;
+}
+
+.total-block-wrapper-for-mini-cart {
+  width: 293px;
+  margin-top: 42px;
+}
+
+.total-block-caption-wrapper-for-big-cart {
+  font-family: var(--price-regular-font);
+  font-weight: 700;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+
+.total-block-caption-wrapper-for-mini-cart {
+  font-family: var(--amount-in-cart-font);
+  font-weight: 500;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.total-block-amount-wrapper {
+  font-family: var(--price-regular-font);
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.total-block-amount-wrapper-for-big-cart {
+  font-size: 24px;
+}
+
+.total-block-amount-wrapper-for-mini-cart {
+  font-size: 16px;
+}
